@@ -11,7 +11,7 @@ public class Triangle_Check {
         c = scanner.nextInt();
 
         if (a+b+c!=180 || a == 0 || b == 0 || c == 0) {
-            System.out.println("a triangle does not exist");
+            System.out.println("A triangle does not exist!");
         }
         else {
             System.out.println(" success ");
