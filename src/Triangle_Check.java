@@ -26,7 +26,7 @@ public class Triangle_Check {
                 else if (a == b || b == c || a == c) {
                     System.out.println("the triangle is isosceles");
                 }
-                else if (a != b && b != c && a != c) {
+                else {
                     System.out.println("the triangle is multifaceted");
                 }
 
